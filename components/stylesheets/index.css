@@ -104,6 +104,10 @@
       cursor: pointer;
   }
 
+  .hero__info-button a{
+    text-decoration: none;
+  }
+
   .hero__info-button button:nth-child(1), .hero__info-button button:nth-child(2):hover{
       background-color: var(--primary-color);
       color: var(--background-color);
