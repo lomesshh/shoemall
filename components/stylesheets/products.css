@@ -8,32 +8,9 @@
 .product__filter{
     width: 25%;
     padding: 0.5rem;
+    align-self: flex-start;
     position: sticky;
     top: 0;
-}
-
-.product__filter > div {
-    position: sticky;
-}
-
-.product__filter-heading{
-    top: 2%
-}
-
-.product__filter-price{
-    top: 10%
-}
-
-.product__filter-category{
-    top: 30%
-}
-
-.product__filter-rating{
-    top: 51%
-}
-
-.product__filter-sort{
-    top: 72%
 }
 
 .product__filter h4{
@@ -41,15 +18,15 @@
 }
 
 .product__filter > div h4:first-of-type{
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .product__filter > div + div{
-    margin-top: 10%;
+    margin-top: 9%;
 }
 
 .product__filter > div:first-child{
-    margin-top: 0.5rem;
+    margin-top: 0.4rem;
 } 
 
 .product__filter-heading{
