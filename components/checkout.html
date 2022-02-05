@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Shoemall | Cart</title>
+</head>
+<body>
+
+    <nav class="nav product-nav">
+        <img class="nav__logo" src="./images/logo.png" alt="logo-img"/>
+        <div class="nav__option">
+            <div class="nav__short">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul>
+                <li><a href="../index.html"><button class="nav__option-login"><i class="fas fa-door-open"></i> Logout</button></a></li>
+                <li><a href="wishlist.html"><p><i class="fas fa-heart"></i> Wishlist</p></a></li>
+                <li><a href="cart.html"><p><i class="fas fa-shopping-cart"></i> Cart</a></p>
+                </li>
+            </ul>
+        </div>
+    </nav>     
+
+
+    <div class="cart">
+
+        <div class="cart__heading">
+            <i class="fas fa-shopping-bag"></i>
+            <h1>Checkout</h1>
+        </div>
+
+        <div class="cart__section checkout__section">
+            
+            <div class="cart__section-items">
+                
+                <div class="product__list-grid checkout__flex">
+                
+                    <h1>Shipping Information</h1>
+                    <div class="shipping__info">
+                        <div class="shipping__info-left">
+                            <p>First Name</p>
+                            <input type="text" placeholder="Enter first name"/>
+                            <p>Last Name</p>
+                            <input type="text" placeholder="Enter last name"/>
+                            <p>Email Address</p>
+                            <input type="email" placeholder="Enter email address"/>
+                            <p>Phone Number</p>
+                            <input type="number" placeholder="Enter phone number"/>
+                        </div>
+                        <div class="shipping__info-right">
+                            <p>Address</p>
+                            <input type="text" placeholder="Enter address"/>
+                            <p>Address line-2</p>
+                            <input type="text" placeholder="Enter street / landmark"/>
+                            <p>State</p>
+                            <input type="text" placeholder="Enter state name"/>
+                            <p>City</p>
+                            <input type="text" placeholder="Enter city name"/>
+                            <p>ZIP Code</p>
+                            <input type="number" placeholder="Enter zip code"/>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="cart__section-bill">
+                <h1>Order Summary</h1>
+                <div>
+                    <p>Price (4 items)</p>
+                    <p>₹24000</p>
+                </div>
+                <div>
+                    <p>Discount</p>
+                    <p>- ₹4000</p>
+                </div>
+                <div>
+                    <p>Delivery Charge</p>
+                    <p>₹499</p>
+                </div>
+                <div>
+                    <h2>Total Amount</h2>
+                    <h2>₹20499</h2>
+                </div>
+                <p>You will save ₹4000 on this order</p>
+                    <form>
+                        <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_IsD9FR7PT25t5a" async> </script> 
+                    </form>           
+             </div>
+             
+        </div>
+
+    </div>
+
+  
+
+     <footer class="footer">
+        <div class="footer__flex">
+            <div class="footer__text">
+                <h2>Made with <span>< /></span> by Lomesh</h2>
+            </div>
+            <div class="footer__social">
+                <a href="https://github.com/lomesshh"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/lomesshh/"><i class="fab fab fa-linkedin fa-2x"></i></a>
+                <a href="https://twitter.com/lomesshh"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

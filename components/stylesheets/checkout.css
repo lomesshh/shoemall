@@ -1,0 +1,54 @@
+.checkout__flex{
+    display: block;
+    background-color: white;
+    padding: 1rem;
+}
+
+.shipping__info{
+    display: flex;
+}
+
+.shipping__info-left ,
+.shipping__info-right{
+    width: 50%;
+    padding: 1rem 2rem;
+}
+
+.shipping__info-left > input,
+.shipping__info-right > input{
+    padding: 0.5rem 0;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.shipping__info-left > p,
+.shipping__info-right > p {
+    padding-top: 1rem;
+}
+
+.cart__section-bill form{
+    width: fit-content;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .checkout__section{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .shipping__info{
+        flex-direction: column;
+    }
+    .shipping__info-left ,
+    .shipping__info-right{
+        width: 100%;
+    }
+}
