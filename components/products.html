@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Shoemall | Login</title>
+</head>
+<body>
+
+    <nav class="nav product-nav">
+        <img class="nav__logo" src="./images/logo.png" alt="logo-img"/>
+        <div class="nav__option">
+            <div class="nav__short">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul>
+                <li><a href="../index.html"><button class="nav__option-login"><i class="fas fa-door-open"></i> Logout</button></a></li>
+                <li><p><i class="far fa-heart"></i> Wishlist</p></li>
+                <li><p><i class="fas fa-shopping-cart"></i> Cart</p>
+                </li>
+            </ul>
+        </div>
+    </nav>     
+
+
+    <div class="product">
+        
+        <div class="product__filter">
+            <div class="product__filter-heading">
+                <h1>Filters</h1>
+                <button>Clear</button>
+            </div>
+
+            <div class="filters product__filter-price">
+                <h2>Price</h2>
+                <h4><input type="radio" name="price" /> Under ₹1000 </h4> 
+                <h4><input type="radio" name="price" /> Under ₹2000 </h4>
+                <h4><input type="radio" name="price" /> Under ₹3000 </h4>
+                <h4><input type="radio" name="price" /> Over ₹4000 </h4>
+            </div>
+
+            <div class="filters product__filter-category">
+                <h2>Category</h2>
+                <h4><input type="checkbox" /> Casual shoe </h4>
+                <h4><input type="checkbox" /> Sports shoe </h4>
+                <h4><input type="checkbox" /> Formal shoe </h4>
+                <h4><input type="checkbox" /> Flip flop </h4>
+            </div>
+
+            <div class="filters product__filter-rating">
+                <h2>Rating</h2>
+                <h4><input type="radio" name="rating" /> 4 Stars & above </h4>
+                <h4><input type="radio" name="rating" /> 3 Stars & above </h4>
+                <h4><input type="radio" name="rating" /> 2 Stars & above </h4>
+                <h4><input type="radio" name="rating" /> 1 Stars & above </h4> 
+            </div>
+
+            <div class="filters product__filter-sort">
+                <h2>Sort by</h2>
+                <h4><input type="radio" name="sort" /> Low to High </h4>
+                <h4><input type="radio" name="sort" /> High to Low </h4> 
+                <h4><input type="radio" name="sort" /> New Arrival </h4> 
+            </div>
+        </div>
+        
+        
+        <div class="product__list">
+            <div class="product__list-search">
+                <input type="text" placeholder="Search here" />
+                <button>Search</button>
+                <button class="search__button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="product__list-grid">
+                
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product8.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/demo2.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product3.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product4.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product5.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product6.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product7.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+ 
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/demo1.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+ 
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product9.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+ 
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product10.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product11.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product12.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product13.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product14.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product15.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+
+                <div class="product__list-card">
+                    <div class="product__card-image">
+                        <img src="images/product16.png" alt="product-image"/>
+                    </div>
+                    <div class="product__card-info">
+                        <h3>Nike Airmax - 9000</h3>
+                        <p>this is demo text just for explaination lol hahahah</p>
+                        <div class="product__card-heart">
+                            <h3>₹ 6000</h3>
+                            <h2><i class="far fa-heart"></i></h2>
+                        </div>
+                        <button>add to cart</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+     <footer class="footer">
+        <div class="footer__flex">
+            <div class="footer__text">
+                <h2>Made with <span>< /></span> by Lomesh</h2>
+            </div>
+            <div class="footer__social">
+                <a href="https://github.com/lomesshh"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/lomesshh/"><i class="fab fab fa-linkedin fa-2x"></i></a>
+                <a href="https://twitter.com/lomesshh"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
