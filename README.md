@@ -11,19 +11,18 @@ we have variety of categories at our webapp you will have to choose a single cat
 
 > Note : If you are not able to access all components from main screen we have provided direct link for all components seperately here for you.
 
- - Homepage - [Direct link](https://quizzomania.netlify.app/)
- - Category - [Direct link](https://quizzomania.netlify.app/components/category.html)
- - Rule Page - [Direct link](https://quizzomania.netlify.app/components/rules.html)
- - MCQ Question Page - [Direct link](https://quizzomania.netlify.app/components/questions.html)
- - Result Page - [Direct link](https://quizzomania.netlify.app/components/result.html)
- - Quizz High Score Board - [Direct link](https://quizzomania.netlify.app/components/scoreboard.html)
- - Login - [Direct link](https://quizzomania.netlify.app/components/login.html)
- - SignUp - [Direct link](https://quizzomania.netlify.app/components/signup.html)
- - Profile Page - [Direct link](https://quizzomania.netlify.app/components/profile.html)
+   - Homepage - [Direct link](https://shoemall.netlify.app/)
+   - Product Listing Page with Filters - [Direct link](https://shoemall.netlify.app/components/products.html)
+   - Cart Management - [Direct link](https://shoemall.netlify.app/components/cart.html)
+   - Wishlist Management - [Direct link](https://shoemall.netlify.app/components/wishlist.html)
+   - Login - [Direct link](https://shoemall.netlify.app/components/login.html)
+   - Signup - [Direct link](https://shoemall.netlify.app/components/signup.html)
+   - Checkout - [Direct link](https://shoemall.netlify.app/components/checkout.html)
+   - Single Product Page - [Direct link](https://shoemall.netlify.app/components/singleproduct.html)
 
 
 ## Live
-[Quizzomania](https://quizzomania.netlify.app/)
+[Shoemall](https://shoemall.netlify.app/)
 
 
 ## Demo
