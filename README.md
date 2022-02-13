@@ -5,7 +5,7 @@
 A Shoemall is a website that allows you to buy shoes & flip flops online. we have variety of categories at our shoemall just visit product listing page you will see all products. apply filters as per your need and in just few clicks you can buy any products from our website. shoemall can accept all kind of payment like debit/credit card, UPI etc.
 
 
-## Screens
+## Screens ( All screens are responsive )
 
 > Note : If you are not able to access all components from main screen we have provided direct link for all components seperately here for you.
 
