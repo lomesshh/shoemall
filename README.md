@@ -2,9 +2,7 @@
 
 
 ## Introduction
-A Quizzomania is a quick and informal assessment of student knowledge. We can often used quizzomania in higher education environments to briefly test a student's level of comprehension regarding.
-The Quizzomania is designed to increase learning by requiring students to write a multiple-choice question in a game form. 
-we have variety of categories at our webapp you will have to choose a single category from them and attend all the question in given time period.
+A Shoemall is a website that allows you to buy shoes & flip flops online. we have variety of categories at our shoemall just visit product listing page you will see all products. apply filters as per your need and in just few clicks you can buy any products from our website. shoemall can accept all kind of payment like debit/credit card, UPI etc.
 
 
 ## Screens
@@ -26,5 +24,4 @@ we have variety of categories at our webapp you will have to choose a single cat
 
 
 ## Demo
-https://user-images.githubusercontent.com/78649480/151971914-daa7185d-b736-4d04-bcd2-fb53c687f5ab.mp4
-
+https://user-images.githubusercontent.com/78649480/153752793-41d2bdf3-9302-49f2-b9a6-3e1790760938.mp4
