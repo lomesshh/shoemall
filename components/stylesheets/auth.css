@@ -66,6 +66,10 @@
     margin-bottom: 1%;
 }
 
+.signup .login__button{
+    margin-bottom: 1rem;
+}
+
 .signup input{
     padding-top: 0.2rem;
 }
