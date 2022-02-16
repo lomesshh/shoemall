@@ -1,8 +1,12 @@
-# Shoemall
+<p align="center">
+  <a href="https://github.com/sohamsshah/sodium-ui" rel="noopener" target="_blank"><img width="150" src="./components/images/logo.png" alt="Material-UI logo"></a></p>
+</p>
 
+<h1 align="center"><b>Shoemall</b></h1>
 
-## Introduction
+<div align="center">
 A Shoemall is a website that allows you to buy shoes & flip flops online. we have variety of categories at our shoemall just visit product listing page you will see all products. apply filters as per your need and in just few clicks you can buy any products from our website. shoemall can accept all kind of payment like debit/credit card, UPI etc.
+</div><br/>
 
 
 ## Screens ( All screens are responsive )
